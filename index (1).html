@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact me</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div id="hero-text">
+      <h1>Hi! <span>Roxanne Mandalejo</span></h1>
+      <h2>Design & Technology Student</h2>
+      <p>
+        I turn ideas into reality through the power of creativity and technology.
+        Every project I work on reflects my passion for design, innovation, and
+        continuous learning. As an IT student, I love exploring how technology
+        and creativity merge to create meaningful, engaging, and visually striking
+        experiences that tell a story.
+      </p>
+    </div>
+    <img src="pfp.png" alt="Roxanne Mandalejo" />
+  </section>
+
+  <section id="about">
+    <div id="about-text">
+      <h2>About me</h2>
+      <p>
+        Hi! I'm Roxanne Mandalejo, an Information Technology student passionate
+        about combining creativity and technology.
+      </p>
+      <p>
+        I enjoy coding, designing, and creating projects that are both functional
+        and visually engaging. I work with HTML, CSS, Java, and Assembly Language,
+        and I'm always eager to learn new skills to grow as both a developer and designer.
+      </p>
+      <div id="tools">
+        <h3>Tools I used</h3>
+        <p>Figma &nbsp;|&nbsp; Canva &nbsp;|&nbsp; Adobe Animation &nbsp;|&nbsp; Adobe Lightroom</p>
+      </div>
+    </div>
+    <img src="sample.jpg" alt="Sample of Edits" />
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="project-grid">
+
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="musicplayer.png" alt="Coding" />
+        </div>
+        <p>Music Figma Player UI Challenge.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="product.png" alt="Visual Designing" />
+        </div>
+        <p>Product Figma UI Challenge</p>
+      </div>
+
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="magazine.png" alt="Canva Edits" />
+        </div>
+        <p>Canva Edits</p>
+      </div>
+
+    </div>
+  </section>
+
+ <section id="contact">
+    <h2>Contact me</h2>
+    <form id="contact-box" action="https://api.web3forms.com/submit" method="POST">
+      <h3>Your Details</h3>
+      
+      <input type="hidden" name="access_key" value="59f01ae5-d1fd-486e-a6db-a8c06c56209f">
+
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+      <div id="name-email">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+      </div>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      
+      <button type="submit" id="send-button">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <span>Roxane Mandalejo.</span>
+    <div id="socials">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
